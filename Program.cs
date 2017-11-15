@@ -20,13 +20,7 @@ namespace CSharpFoundations
             int i = 1;
             
             while (i <= myNumber) {
-                if (i % 2 == 0) {
-                    Console.WriteLine(i + " is even");
-                }
-                else
-                {
-                    Console.WriteLine(i + " is odd");
-                }
+                Console.WriteLine(i + (i % 2 == 0 ? " is even" : " is odd"));
                 i++;
             }
         }
