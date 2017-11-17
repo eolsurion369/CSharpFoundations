@@ -15,9 +15,10 @@ namespace CSharpFoundations
     {
         static void Main(string[] args)
         {
-            String gameOfThronesPremier = "April 17, 2011";
-            DateTime gameOfThronesPremierDate = Convert.ToDateTime(gameOfThronesPremier);
-            Console.WriteLine(gameOfThronesPremierDate.ToString());
+            String[] Names = new String[] {"Sansa", "Bran", "Eddard", "Arya"};
+            foreach (String item in Names) {
+                Console.WriteLine(item);
+            }
         }
     }
 }
