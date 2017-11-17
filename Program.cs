@@ -15,10 +15,9 @@ namespace CSharpFoundations
     {
         static void Main(string[] args)
         {
-            int? bonus = null;
-            bool hasBonus = false;
-
-            hasBonus = (bonus.HasValue) ? true : false;
+            String gameOfThronesPremier = "April 17, 2011";
+            DateTime gameOfThronesPremierDate = Convert.ToDateTime(gameOfThronesPremier);
+            Console.WriteLine(gameOfThronesPremierDate.ToString());
         }
     }
 }
