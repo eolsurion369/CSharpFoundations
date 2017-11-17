@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 /*
 ****************************************************************************************
@@ -14,15 +15,12 @@ namespace CSharpFoundations
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Please enter a number between 5 and 20");
-            int myNumber = int.Parse(Console.ReadLine());
-            
-            int i = 1;
-            
-            while (i <= myNumber) {
-                Console.WriteLine(i + (i % 2 == 0 ? " is even" : " is odd"));
-                i++;
-            }
+            Console.WriteLine("Please enter your name");
+            string myName = Console.ReadLine();
+            StringBuilder newName = new StringBuilder(myName);
+            newName.Insert(0,"Hello ");
+            Console.WriteLine(newName);
+ 
         }
     }
 }

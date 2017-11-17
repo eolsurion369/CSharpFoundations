@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\School Projects\\CoderCamps\\projects\\CSharpFoundations\\CSharpFoundations.csproj",
+      "projectUniqueName": "D:\\School Projects\\CoderCamps\\projects\\csharpfoundations\\CSharpFoundations.csproj",
       "projectName": "CSharpFoundations",
-      "projectPath": "D:\\School Projects\\CoderCamps\\projects\\CSharpFoundations\\CSharpFoundations.csproj",
+      "projectPath": "D:\\School Projects\\CoderCamps\\projects\\csharpfoundations\\CSharpFoundations.csproj",
       "packagesPath": "C:\\Users\\Eolsu\\.nuget\\packages\\",
-      "outputPath": "D:\\School Projects\\CoderCamps\\projects\\CSharpFoundations\\obj\\",
+      "outputPath": "D:\\School Projects\\CoderCamps\\projects\\csharpfoundations\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
